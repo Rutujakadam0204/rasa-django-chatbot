@@ -1,0 +1,134 @@
+version: "3.1"
+
+nlu:
+
+- intent: hrfaq0
+  examples: | 
+    - Is my pay information available online?
+
+- intent: hrfaq1
+  examples: | 
+    - How do I find out my pay information?
+
+- intent: hrfaq2
+  examples: | 
+    - When will I be able to see the current pay period statement?
+
+- intent: hrfaq3
+  examples: | 
+    - Will I receive an email notification that my pay statement has been posted online?
+
+- intent: hrfaq4
+  examples: | 
+    - How do I print my online Pay Statement?
+
+- intent: hrfaq5
+  examples: | 
+    - When can I expect my annual form W2?
+
+- intent: hrfaq6
+  examples: | 
+    - What if I did not receive a form W2?
+
+- intent: hrfaq7
+  examples: | 
+    - Can I elect direct deposit to a savings account?
+
+- intent: hrfaq8
+  examples: | 
+    - Can I set up more than one bank account for direct deposit?
+
+- intent: hrfaq9
+  examples: | 
+    - How is my overtime compensation calculated?
+
+- intent: hrfaq10
+  examples: | 
+    - What is the current payroll calendar? What are the cut-off dates for submitting
+    data and forms?
+
+- intent: hrfaq11
+  examples: | 
+    - Is the Employee Self Service site secure? How can I be sure someone else
+    cannot see my online pay statement?
+
+- intent: hrfaq12
+  examples: | 
+    - Are employers expected to hire the less qualified over the more qualified
+    to meet affirmative action goals?
+
+- intent: hrfaq13
+  examples: | 
+    - Is there really any difference between goals and quotas?
+
+- intent: hrfaq14
+  examples: | 
+    - Is affirmative action reverse discrimination?
+
+- intent: hrfaq15
+  examples: | 
+    - Can employees request a correction or deletion of something in the personnel
+    file?
+
+- intent: hrfaq16
+  examples: | 
+    - Should we charge the employee for a copy of the personnel file?
+
+- intent: hrfaq17
+  examples: | 
+    - Where is the personnel file located and how is it maintained?
+
+- intent: hrfaq18
+  examples: | 
+    - What is my salary?
+
+
+- intent: hrfaq19
+  examples: | 
+    - What is a personnel file?
+
+- intent: hrfaq20
+  examples: | 
+    - What conduct may not be sexual harassment?
+
+- intent: hrfaq21
+  examples: | 
+    - What happens to employees found guilty of sexual harassment?
+
+- intent: hrfaq22
+  examples: | 
+    - May more than one union representative, or a union representative and
+    an attorney, be present with one employee?
+
+- intent: hrfaq23
+  examples: | 
+    - Do you have to allow a union representative to be present whenever the
+    employee wants one?
+
+- intent: hrfaq24
+  examples: | 
+    - What is the performance cycle?
+
+- intent: hrfaq25
+  examples: | 
+    - What happens when goals change?
+
+- intent: hrfaq26
+  examples: | 
+    - How does an employee provide feedback on their review?
+
+- intent: hrfaq27
+  examples: |
+    - What if employees meet goals, but don't do well in other responsibilities?
+
+- intent: hrfaq28
+  examples: |
+    - How do I review performance if goals weren’t established for the year?
+
+- intent: hrfaq29
+  examples: |
+    - How do I set goals?
+
+- intent: hrfaq30
+  examples: |
+    - Will there be training on goal setting for Managers and Supervisors?

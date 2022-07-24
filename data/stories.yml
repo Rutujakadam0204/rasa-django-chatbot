@@ -1,0 +1,65 @@
+version: "3.1"
+
+# stories:
+
+# - story: happy path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
+
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
+
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye
+
+
+# stories:
+# - story: cuisine interjection
+#   steps:
+#   - intent: request_restaurant
+#   - action: restaurant_form
+#   - active_loop: restaurant_form
+#   - slot_was_set:
+#     - requested_slot: cuisine
+#   - intent: explain
+#   - action: utter_explain_cuisine
+#   - action: restaurant_form
+
+# - story: number of people interjection
+#   steps:
+#   - intent: request_restaurant
+#   - action: restaurant_form
+#   - active_loop: restaurant_form
+#   - slot_was_set:
+#     - requested_slot: num_people
+#   - intent: explain
+#   - action: utter_explain_num_people
+#   - action: restaurant_form
+
+# - story: outdoor seating interjection
+#   steps:
+#   - intent: request_restaurant
+#   - action: restaurant_form
+#   - active_loop: restaurant_form
+#   - slot_was_set:
+#     - requested_slot: outdoor_seating
+#   - intent: explain
+#   - action: utter_explain_outdoor_seating
+#   - action: restaurant_form
